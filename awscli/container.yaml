@@ -1,0 +1,27 @@
+# change this to a URL to describe your container, or to get help
+url: https://singularity-hpc.readthedocs.io
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: jterstriep
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# Put custom aliases here
+aliases:
+  aws: aws
+  aws_completer: aws_completer
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: A custom container to do X.
+latest:
+  '2.11': sha256:144825c6ebed5647fff6de9883037ab4ddf50063e2657d5c26d65e670f176ce6
+tags:
+  '2.11': sha256:144825c6ebed5647fff6de9883037ab4ddf50063e2657d5c26d65e670f176ce6
+path: sha256:144825c6ebed5647fff6de9883037ab4ddf50063e2657d5c26d65e670f176ce6.sif
+
