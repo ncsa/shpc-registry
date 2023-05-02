@@ -1,0 +1,30 @@
+docker: nservant/hicpro
+
+# change this to a URL to describe your container, or to get help
+url: https://github.com/nservant/HiC-Pro
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: '@jterstriep'
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# Put custom aliases here
+# aliases:
+#  echo: /usr/bin/echo
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: An optimized and flexible pipeline for Hi-C data processing
+
+latest:
+  "3.0.0": "sha256:273eec78a98e32e994315b4e059a1cf27c9e9c9e97bfa8dfceef03c5640cf29d"
+tags:
+  "3.0.0": "sha256:273eec78a98e32e994315b4e059a1cf27c9e9c9e97bfa8dfceef03c5640cf29d"
+
+aliases:
+  HiC-Pro: /HiC-Pro_3.0.0/bin/HiC-Pro
