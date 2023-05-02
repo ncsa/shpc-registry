@@ -1,0 +1,29 @@
+docker: perl
+
+# change this to a URL to describe your container, or to get help
+url: https://www.perl.org
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: "@jterstriep"
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: "Perl is a high-level, general-purpose, interpreted, dynamic programming language."
+
+latest:
+  "5.36.1": "sha256:b2f5930a0e7cc0426d9b3fd0cd2bbe2dfc06922b3cdba0160fe0179867b6ff2f"
+tags:
+  "5.36.1": "sha256:b2f5930a0e7cc0426d9b3fd0cd2bbe2dfc06922b3cdba0160fe0179867b6ff2f"
+
+
+# Put custom aliases here
+aliases:
+  perl: /usr/bin/perl
+
