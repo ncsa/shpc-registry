@@ -1,0 +1,32 @@
+# change this to a URL to describe your container, or to get help
+url: https://github.com/pandoc/dockerfiles
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: jterstriep
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# Put custom aliases here
+# aliases:
+#  echo: /usr/bin/echo
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: Official pandoc image with pandoc, pandoc-crossref, and a minimal LaTeX installation.
+latest:
+  edge-ubuntu: sha256:631fda556b677de8a6cbd4f0ee96ab2c7ff272d0150ab7c997fd013328c8cb2a
+tags:
+  edge-ubuntu: sha256:631fda556b677de8a6cbd4f0ee96ab2c7ff272d0150ab7c997fd013328c8cb2a
+  2.19.2-ubuntu: sha256:5e7ab202a695c8b0f91450d2dff97d81ee9a142e76098370983bc448eef3f0e4
+  latest: sha256:bea599351bb3ccaf33d5edd22a243b5e72b9c72674b4d7e180f2a9fdce48db08
+  '3': sha256:bea599351bb3ccaf33d5edd22a243b5e72b9c72674b4d7e180f2a9fdce48db08
+  '3.1': sha256:bea599351bb3ccaf33d5edd22a243b5e72b9c72674b4d7e180f2a9fdce48db08
+  '3.0': sha256:9a6fb13b60f5aecaa9af416605ffb4ed268c33b0d50e92a45d4ffe2b686adee9
+  '2': sha256:cc0228f2e6552683502692281bc2c0624ef3be175886ddd0279c2b9bfeb8c95a
+  '2.19': sha256:cc0228f2e6552683502692281bc2c0624ef3be175886ddd0279c2b9bfeb8c95a
+docker: pandoc/latex
