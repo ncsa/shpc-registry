@@ -1,0 +1,15 @@
+# Using a the "verse" container which contains tidyverse and devtools
+# and tex and publishing related packages.
+Bootstrap: docker
+From: rocker/verse:4.0.2
+
+%files
+    Rpackages-4.0.2.txt /packages.txt
+
+%post
+    R -e 'install.packages("BiocManager")'
+    R -e 'pkgs <- readLines("/packages.txt"); BiocManager::install(pkgs, update=FALSE)' 
+    rm /packages.txt
+
+%runscript
+    exec R "$@"

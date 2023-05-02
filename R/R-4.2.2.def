@@ -1,0 +1,12 @@
+Bootstrap: docker
+From: bioconductor/bioconductor_docker:3.16-R-4.2.2
+
+%files
+    Rpackages-4.2.2.txt /packages.txt
+
+%post
+    R -e 'pkgs <- readLines("/packages.txt"); BiocManager::install(pkgs, update=FALSE)'
+    rm /packages.txt
+
+%runscript
+    exec R "$@"

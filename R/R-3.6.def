@@ -1,0 +1,13 @@
+Bootstrap: docker
+From: rocker/verse:3.6.1
+
+%files
+    Rpackages-3.6.1.txt /packages.txt
+
+%post
+    R -e 'install.packages("BiocManager")'
+    R -e 'pkgs <- readLines("/packages.txt"); BiocManager::install(pkgs, update=FALSE)' 
+    rm /packages.txt
+
+%runscript
+    exec R "$@"
