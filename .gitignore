@@ -1,5 +1,3 @@
-bin/
-lib/
 shpc.db
 singularity_hpc.egg-info/
 env
@@ -15,5 +13,6 @@ __pycache__
 *.sif
 *.img
 /.eggs
+/containers
 /modules
 /views
