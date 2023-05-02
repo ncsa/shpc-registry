@@ -1,0 +1,29 @@
+# change this to a URL to describe your container, or to get help
+url: https://github.com/abbvie-external/OmicNavigator
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: "@jterstriep"
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: Omic Data Analysis and Visualization
+
+latest:
+  1.3.9: sha256:69b1a5333cb75dcfbac05695d1de9338b33a36b41adddc2583afafba02f8a78f
+tags:
+  1.3.9: sha256:69b1a5333cb75dcfbac05695d1de9338b33a36b41adddc2583afafba02f8a78f
+
+path: /projects/ncsa/jefft/containers/x.sif
+
+# Put custom aliases here
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+

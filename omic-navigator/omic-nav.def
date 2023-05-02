@@ -1,0 +1,6 @@
+Bootstrap: docker
+From: rocker/r-ver:latest
+
+%post
+    Rscript -e 'install.packages("OmicNavigator", dependencies = TRUE)'
+
