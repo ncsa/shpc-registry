@@ -3,11 +3,11 @@ aliases:
   Rscript: /usr/local/bin/Rscript
 description: rocker/verse base image with many bioconductor packages installed
 latest:
-  '4.2.2-pkgs': sha256:5e9afca775928074b3319f79352c984f530785412800a486e2283e7514ce4c6e
+  '4.2.2': sha256:5e9afca775928074b3319f79352c984f530785412800a486e2283e7514ce4c6e
 maintainer: '@jterstriep'
 tags:
-  '3.6.1-pkgs': sha256:dadaefc3e790443a32c1f09def7206656aadb372e9e1d2893b954218fecea8ca
-  '4.0.2-pkgs': sha256:b7b52dfeb7920e69a9ee34700d7ae48e2b1299c8aa376fe4c4a0e9b49fb66519
-  '4.2.2-pkgs': sha256:5e9afca775928074b3319f79352c984f530785412800a486e2283e7514ce4c6e
+  '3.6.1': sha256:dadaefc3e790443a32c1f09def7206656aadb372e9e1d2893b954218fecea8ca
+  '4.0.2': sha256:b7b52dfeb7920e69a9ee34700d7ae48e2b1299c8aa376fe4c4a0e9b49fb66519
+  '4.2.2': sha256:5e9afca775928074b3319f79352c984f530785412800a486e2283e7514ce4c6e
 url: https://hub.docker.com/r/rocker/verse
 path: /projects/ncsa/jefft/projects/singularity/R/R-4.2.2.sif
