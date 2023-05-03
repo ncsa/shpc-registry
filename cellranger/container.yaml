@@ -1,0 +1,15 @@
+docker: nfcore/cellrangermkfastq
+url: https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger
+maintainer: '@jterstriep'
+
+description: Cell Ranger is a set of analysis pipelines that process Chromium single cell data
+
+latest:
+  '7.1.0': sha256:466278d182e08c23dff9f1adcade503cf56d73bce60ea7a13f23e59799f79e7a
+tags:
+  '7.1.0': sha256:466278d182e08c23dff9f1adcade503cf56d73bce60ea7a13f23e59799f79e7a
+  '6.1.2': sha256:466278d182e08c23dff9f1adcade503cf56d73bce60ea7a13f23e59799f79e7a
+
+aliases:
+  cellranger: /usr/bin/cellranger
+  bcl2fastq: /usr/bin/bcl2fastq
