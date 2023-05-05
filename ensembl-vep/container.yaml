@@ -1,0 +1,32 @@
+docker: ensemblorg/ensembl-vep
+
+# change this to a URL to describe your container, or to get help
+url: https://useast.ensembl.org/Homo_sapiens/Tools/VEP
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: jterstriep
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: VEP (Variant Effect Predictor) predicts the functional effects of genomic variants.
+
+latest:
+  '109.3': sha256:09292ac4253837562803b97dd1e7466957119f690030fd542b5f5839c231c323
+tags:
+  '109.3': sha256:09292ac4253837562803b97dd1e7466957119f690030fd542b5f5839c231c323
+
+# Put custom aliases here
+aliases:
+  vep: /opt/vep/src/ensembl-vep/vep
+  filter_vep: /opt/vep/src/ensembl-vep/filter_vep
+  INSTALL.pl: /opt/vep/src/ensembl-vep/INSTALL.pl
+  convert_cache.pl: /opt/vep/src/ensembl-vep/convert_cache.pl
+  haplo: /opt/vep/src/ensembl-vep/haplo
+  variant_recorder: /opt/vep/src/ensembl-vep/variant_recorder
