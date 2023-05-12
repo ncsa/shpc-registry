@@ -1,0 +1,34 @@
+docker: silex/emacs
+
+# change this to a URL to describe your container, or to get help
+url: https://github.com/Silex
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: '@jterstriep'
+
+# Any custom features?
+# features:
+#  gpu: true
+
+# Put custom aliases here
+# aliases:
+#  echo: /usr/bin/echo
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: An optimized and flexible pipeline for Hi-C data processing
+
+latest:
+  "28.2": "sha256:633e3736e4fc5e31216e4f8bfd6942668dbefd01ab15760ec5e553adf1318b67"
+tags:
+  "28.2": "sha256:633e3736e4fc5e31216e4f8bfd6942668dbefd01ab15760ec5e553adf1318b67"
+
+aliases:
+  emacs: /nix/store/emacs/bin/emacs
+  ctags: /nix/store/emacs/bin/ctags
+  ebrowse: /nix/store/emacs/bin/ebrowse 
+  emacsclient: /nix/store/emacs/bin/emacsclient  
+  etags: /nix/store/emacs/bin/etags
