@@ -1,0 +1,13 @@
+docker: nfcore/bcl2fastq
+url: https://support.illumina.com/content/dam/illumina-support/documents/documentation/software_documentation/bcl2fastq/bcl2fastq2-v2-20-software-guide-15051736-03.pdf
+maintainer: '@jterstriep'
+
+description: The Illumina bcl2fastq2 Conversion Software v2.20 demultiplexes sequencing data and converts base call (BCL) files into FASTQ files. For every cycle of a sequencing run, the Real-Time Analysis (RTA) software generates a BCL file containing base calls and associated quality scores (Q-scores). Most data analysis applications require FASTQ files as input.  
+
+latest:
+  '2.20.0.422': sha256:7689cdd46890c93fa9bf23633e51532961cc21131d69937b58e5987f7cb10580
+tags:
+  '2.20.0.422': sha256:7689cdd46890c93fa9bf23633e51532961cc21131d69937b58e5987f7cb10580
+
+aliases:
+  bcl2fastq: /usr/local/bin/bcl2fastq
