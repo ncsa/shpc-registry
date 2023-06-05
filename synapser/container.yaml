@@ -1,0 +1,17 @@
+url: https://www.synapser.com
+maintainer: '@jterstriep'
+
+description: rocker/verse base image with the synapser pre-installed
+
+latest:
+  '4.2.2': sha256:5e9afca775928074b3319f79352c984f530785412800a486e2283e7514ce4c6e
+tags:
+  '4.2.2': sha256:5e9afca775928074b3319f79352c984f530785412800a486e2283e7514ce4c6e
+
+# dummy path - specify sif file when installing
+path: /projects/ncsa/jefft/projects/singularity/R/R-4.2.2.sif
+
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  r: /usr/local/bin/r
