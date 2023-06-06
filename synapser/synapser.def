@@ -2,12 +2,14 @@ Bootstrap: docker
 From: rocker/verse:4.2.2
 
 %files
-    ./99-reticulate.sh /.singularity.d/env/99-reticulate.sh
+    ./99-reticulate.sh /root
 
 %post
     apt update && apt install -y python3.10 python3-pip python3-numpy python3.10-venv
     R -e 'install.packages("synapser", repos = c("http://ran.synapse.org", "http://cran.fhcrc.org"))'
     R -e 'remotes::install_github("Sage-Bionetworks/synapserutils")'
+
+    mv /root/99-reticulate.sh /.singularity.d/env/99-reticulate.sh
 
 %runscript
     exec R "$@"
