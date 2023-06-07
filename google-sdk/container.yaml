@@ -1,0 +1,13 @@
+docker: google/cloud-sdk
+url: https://cloud.google.com/cli
+maintainer: '@jterstriep'
+
+description: Create and manage Google Cloud resources and services directly on the command line or via scripts using the Google Cloud CLI.
+
+latest:
+  '434.0.0': sha256:1a9feed5f353663411e4c1df17e8095becbd6d88f3406959d7374fe8bd5ae3c0
+tags:
+  '434.0.0': sha256:1a9feed5f353663411e4c1df17e8095becbd6d88f3406959d7374fe8bd5ae3c0
+
+aliases:
+  gcloud: /usr/bin/gcloud
