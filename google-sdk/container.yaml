@@ -11,3 +11,5 @@ tags:
 
 aliases:
   gcloud: /usr/bin/gcloud
+  gsutil: /usr/bin/gsutil
+  bq: /usr/bin/bq
