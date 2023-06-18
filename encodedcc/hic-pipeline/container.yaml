@@ -1,0 +1,62 @@
+docker: encodedcc/hic-pipeline
+url: https://github.com/ENCODE-DCC/hic-pipeline
+description: The ENCODE pipeline for processing Hi-C data based on Juicer
+
+maintainer: '@jterstriep'
+
+latest:
+  "1.15.1": "sha256:53ed72a10bc65af5a9333e83f047307aa7a149db5bf330f7efe8195366efb8b6"
+tags:
+  "1.15.1": "sha256:53ed72a10bc65af5a9333e83f047307aa7a149db5bf330f7efe8195366efb8b6"
+  "1.15.1_delta": "sha256:b7606ada1ca2f926851a93473770ab91b3b05f53aa04ee697e197aada8f60068"
+  "1.15.1_hiccups": "sha256:4eea041c1a575ad0b20833d56581e2efaa20eaa84e15120a8bb381cd2e2fb9c1"
+
+aliases:
+  java: /usr/bin/java
+  get_ligation_site_regex.py: /opt/hic-pipeline/hic_pipeline/get_ligation_site_regex.py
+  normalize_assembly_name.py: /opt/hic-pipeline/hic_pipeline/normalize_assembly_name.py
+  filter_chrom_sizes.py: /opt/hic-pipeline/hic_pipeline/filter_chrom_sizes.py
+  jsonify_stats.py: /opt/hic-pipeline/hic_pipeline/jsonify_stats.py
+  extract-highest-oriented-tiled-stanza.awk: /opt/3d-dna/merge/extract-highest-oriented-tiled-stanza.awk
+  lift-merged-annotations-to-unmerged-map-overlaps.awk: /opt/3d-dna/merge/lift-merged-annotations-to-unmerged-map-overlaps.awk
+  make-gapped-assembly.sh: /opt/3d-dna/supp/make-gapped-assembly.sh
+  seal-assembly.awk: /opt/3d-dna/seal/seal-assembly.awk
+  run-gatk-after-juicer2.sh: /opt/hic2gatk/run-gatk-after-juicer2.sh
+  gatk: /opt/gatk-4.2.2.0/gatk
+  juicer.sh: /opt/juicer/CPU/juicer.sh
+  mega.sh: /opt/juicer/CPU/mega.sh
+  mega_from_bams.sh: /opt/juicer/CPU/mega_from_bams.sh
+  conversion.sh: /opt/juicer/CPU/common/conversion.sh
+  juicer_tools: /opt/juicer/CPU/common/juicer_tools
+  cleanup.sh: /opt/juicer/CPU/common/cleanup.sh
+  juicer_arrowhead.sh: /opt/juicer/CPU/common/juicer_arrowhead.sh
+  countligations.sh: /opt/juicer/CPU/common/countligations.sh
+  adjust_insert_size.awk: /opt/juicer/CPU/common/adjust_insert_size.awk
+  sam_to_mnd.sh: /opt/juicer/CPU/common/sam_to_mnd.sh
+  relaunch_prep.sh: /opt/juicer/CPU/common/relaunch_prep.sh
+  juicer_postprocessing.sh: /opt/juicer/CPU/common/juicer_postprocessing.sh
+  sam_to_pre.awk: /opt/juicer/CPU/common/sam_to_pre.awk
+  stats_sub.awk: /opt/juicer/CPU/common/stats_sub.awk
+  diploid.sh: /opt/juicer/CPU/common/diploid.sh
+  diploid_split.awk: /opt/juicer/CPU/common/diploid_split.awk
+  chimeric_sam.awk: /opt/juicer/CPU/common/chimeric_sam.awk
+  index_by_chr.awk: /opt/juicer/CPU/common/index_by_chr.awk
+  fragment_4dnpairs.pl: /opt/juicer/CPU/common/fragment_4dnpairs.pl
+  diploid.pl: /opt/juicer/CPU/common/diploid.pl
+  dups_sam.awk: /opt/juicer/CPU/common/dups_sam.awk
+  juicer_hiccups.sh: /opt/juicer/CPU/common/juicer_hiccups.sh
+  check.sh: /opt/juicer/CPU/common/check.sh
+  mega_from_bams_diploid.sh: /opt/juicer/CPU/mega_from_bams_diploid.sh
+  diploidify.sh: /opt/juicer/CPU/diploidify.sh
+  generate_site_positions.py: /opt/juicer/misc/generate_site_positions.py
+  calculate_map_resolution.sh: /opt/juicer/misc/calculate_map_resolution.sh
+  straw.py: /opt/EigenVector/straw/python/straw/straw.py
+  straw: /opt/EigenVector/straw/bin/Linux/straw
+  juicer_shortform2pairs.pl: /opt/juicer_shortform2pairs.pl
+  run-gen-ref: /opt/bwa-0.7.17/bwakit/run-gen-ref
+  typeHLA.sh: /opt/bwa-0.7.17/bwakit/typeHLA.sh
+  run-bwamem: /opt/bwa-0.7.17/bwakit/run-bwamem
+  run-HLA: /opt/bwa-0.7.17/bwakit/run-HLA
+  bwa: /opt/bwa-0.7.17/bwa
+  qualfa2fq.pl: /opt/bwa-0.7.17/qualfa2fq.pl
+  xa2multi.pl: /opt/bwa-0.7.17/xa2multi.pl        
