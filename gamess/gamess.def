@@ -15,11 +15,13 @@ From: ubuntu:jammy
     tar xzf /gamess-current.tar.gz -C /opt
 
     cd /opt/gamess
-    python3 bin/create-install-info.py --linux64 --generic --path /opt/gamess --gfortran --fortran_version 11.3.0 --math mkl --mathlib_path /opt/intel/oneapi/mkl/latest/lib/intel64 --ddi_comm sockets
+    python3 bin/create-install-info.py --linux64 --generic --path /opt/gamess --gfortran --fortran_version 11.3.0 --math mkl --mathlib_path /opt/intel/oneapi/mkl/latest/lib/intel64 --ddi_comm sockets --rungms
+    cat install.info
     
     make ddi
     make modules
     make -j4
-    
+
 %environment
-    export PATH=/opt/gamess:$PATH
+    export GMSPATH=/opt/gamess
+    export PATH=$GMSPATH:$PATH
