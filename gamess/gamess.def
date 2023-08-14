@@ -3,6 +3,8 @@ From: ubuntu:jammy
 
 %files
     gamess-current.tar.gz /
+    rungms /
+
 
 %post
     apt-get update && apt-get install -y wget tcsh build-essential gfortran python3 python3-pip
@@ -13,6 +15,7 @@ From: ubuntu:jammy
     apt-get update && apt-get install -y intel-oneapi-mkl-devel
 
     tar xzf /gamess-current.tar.gz -C /opt
+    rm /gamess-current.tar.gz
 
     cd /opt/gamess
     python3 bin/create-install-info.py --linux64 --generic --path /opt/gamess --gfortran --fortran_version 11.3.0 --math mkl --mathlib_path /opt/intel/oneapi/mkl/latest/lib/intel64 --ddi_comm sockets --rungms
@@ -21,6 +24,11 @@ From: ubuntu:jammy
     make ddi
     make modules
     make -j4
+
+    # use custom rungms
+    cp /opt/gamess/rungms /opt/gamess/rungms.orig
+    mv /rungms /opt/gamess
+
 
 %environment
     export GMSPATH=/opt/gamess
