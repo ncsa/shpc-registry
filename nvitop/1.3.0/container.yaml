@@ -1,0 +1,25 @@
+# change this to a URL to describe your container, or to get help
+url: https://nvitop.readthedocs.io
+
+# change this to your GitHub alias (or another contact or name)
+maintainer:jterstriep
+
+# Any custom features?
+features:
+  gpu: true
+
+# Put custom aliases here
+aliases:
+  nvitop: /venv/bin/nvitop
+
+# A description to describe your container
+description: >
+  An interactive NVIDIA-GPU process viewer and beyond, the one-stop 
+  solution for GPU process management. The full API references host 
+  at https://nvitop.readthedocs.io.
+
+latest:
+  latest: sha256:358fd5b3dee2c2447ffd5cca811baa469ff3521aad9c855dccb6e0d0678bca6e
+tags:
+  latest: sha256:358fd5b3dee2c2447ffd5cca811baa469ff3521aad9c855dccb6e0d0678bca6e
+path: sha256:358fd5b3dee2c2447ffd5cca811baa469ff3521aad9c855dccb6e0d0678bca6e.sif
