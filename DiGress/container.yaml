@@ -5,7 +5,7 @@ url: https://github.com/cvignac/DiGress
 maintainer: 'jterstriep'
 
 # Any custom features?
-# features:
+features:
   gpu: true
 
 # Put custom aliases here
@@ -20,7 +20,7 @@ maintainer: 'jterstriep'
 description: A Discrete Denoising diffusion models for graph generation 
 
 latest:
-  latest: sha256:76afd382bc873feca23bb824765e3736f388f8cbd06f728cde89e1794eb9bc1a
+  1.0.1: sha256:76afd382bc873feca23bb824765e3736f388f8cbd06f728cde89e1794eb9bc1a
 tags:
   1.0.1: sha256:76afd382bc873feca23bb824765e3736f388f8cbd06f728cde89e1794eb9bc1a
   latest: sha256:76afd382bc873feca23bb824765e3736f388f8cbd06f728cde89e1794eb9bc1a
