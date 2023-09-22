@@ -1,0 +1,27 @@
+# change this to a URL to describe your container, or to get help
+url: https://github.com/cvignac/DiGress
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: 'jterstriep'
+
+# Any custom features?
+# features:
+  gpu: true
+
+# Put custom aliases here
+# aliases:
+#  echo: /usr/bin/echo
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: A Discrete Denoising diffusion models for graph generation 
+
+latest:
+  latest: sha256:76afd382bc873feca23bb824765e3736f388f8cbd06f728cde89e1794eb9bc1a
+tags:
+  1.0.1: sha256:76afd382bc873feca23bb824765e3736f388f8cbd06f728cde89e1794eb9bc1a
+  latest: sha256:76afd382bc873feca23bb824765e3736f388f8cbd06f728cde89e1794eb9bc1a
+path: sha256:76afd382bc873feca23bb824765e3736f388f8cbd06f728cde89e1794eb9bc1a.sif
