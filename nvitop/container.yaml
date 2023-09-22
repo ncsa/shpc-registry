@@ -2,7 +2,7 @@
 url: https://nvitop.readthedocs.io
 
 # change this to your GitHub alias (or another contact or name)
-maintainer:jterstriep
+maintainer: 'jterstriep'
 
 # Any custom features?
 features:
@@ -19,7 +19,7 @@ description: >
   at https://nvitop.readthedocs.io.
 
 latest:
-  latest: sha256:358fd5b3dee2c2447ffd5cca811baa469ff3521aad9c855dccb6e0d0678bca6e
+  1.3.0: sha256:358fd5b3dee2c2447ffd5cca811baa469ff3521aad9c855dccb6e0d0678bca6e
 tags:
-  latest: sha256:358fd5b3dee2c2447ffd5cca811baa469ff3521aad9c855dccb6e0d0678bca6e
+  1.3.0: sha256:358fd5b3dee2c2447ffd5cca811baa469ff3521aad9c855dccb6e0d0678bca6e
 path: sha256:358fd5b3dee2c2447ffd5cca811baa469ff3521aad9c855dccb6e0d0678bca6e.sif
