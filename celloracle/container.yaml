@@ -3,21 +3,22 @@ url: https://github.com/morris-lab/CellOracle
 
 maintainer: jterstriep
 
-# Any custom features?
-# features:
-#  gpu: true
-
-# Put custom aliases here
-# aliases:
-#  echo: /usr/bin/echo
-
 description: >
   CellOracle is a python library for in silico gene perturbation
   analyses using single-cell omics data and Gene Regulatory Network
   models. See https://morris-lab.github.io/CellOracle.documentation/
+
+aliases:
+  python: /root/miniconda/envs/celloracle_env/bin/python
 
 latest:
   0.14.0: sha256:efc72080694e045fb369ebbeb21bb171f04e8df682aaf3f1072d9cd55979a10c
 tags:
   0.12.0: sha256:cf8fdda4461eef0aed17bcc203ef56ef86fd5b6a4eca94219d8cbee3c5a8c088
   0.14.0: sha256:efc72080694e045fb369ebbeb21bb171f04e8df682aaf3f1072d9cd55979a10c
+
+
+# Any custom features?
+# features:
+#  gpu: true
+
