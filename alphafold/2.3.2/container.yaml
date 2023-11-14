@@ -1,0 +1,26 @@
+# change this to a URL to describe your container, or to get help
+url: https://singularity-hpc.readthedocs.io
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: jterstriep
+
+# Any custom features?
+features:
+  gpu: true
+
+# Put custom aliases here
+# aliases:
+#  echo: /usr/bin/echo
+
+# custom environment variables
+# env:
+#  breakfast: pancakes
+
+# A description to describe your container
+description: Alphafold
+
+latest:
+  latest: sha256:ce979c6b4baaa56d5b782eb3fd3d5f5eda326d602cd4761af50992bf1b3bc876
+tags:
+  latest: sha256:ce979c6b4baaa56d5b782eb3fd3d5f5eda326d602cd4761af50992bf1b3bc876
+path: sha256:ce979c6b4baaa56d5b782eb3fd3d5f5eda326d602cd4761af50992bf1b3bc876.sif
