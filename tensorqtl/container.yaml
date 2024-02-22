@@ -1,0 +1,33 @@
+# change this to a URL to describe your container, or to get help
+url: https://nvitop.readthedocs.io
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: 'jterstriep'
+
+# Any custom features?
+features:
+  gpu: true
+
+# Put custom aliases here
+aliases:
+  tensorqtl: tensorqtl
+
+# A description to describe your container
+description: >
+    TensorQTL is a computational framework designed to efficiently map 
+    quantitative trait loci (QTLs) by leveraging the power of tensor 
+    computation. Developed to handle large-scale genotype and gene 
+    expression data, it aims to identify associations between genetic 
+    variations and quantitative traits, such as gene expression levels 
+    (eQTL analysis). By utilizing the parallel processing capabilities of 
+    GPUs, TensorQTL significantly accelerates the computation of QTL 
+    mapping compared to traditional methods. This tool is particularly 
+    valuable in genomics and bioinformatics for its ability to process vast 
+    datasets, facilitating a deeper understanding of the genetic basis of 
+    complex traits and diseases. Its implementation allows for both cis- 
+    and trans-QTL mapping, providing a comprehensive overview of genetic 
+    influences on trait variation.
+
+latest:
+tags:
+path: sha256:358fd5b3dee2c2447ffd5cca811baa469ff3521aad9c855dccb6e0d0678bca6e.sif
