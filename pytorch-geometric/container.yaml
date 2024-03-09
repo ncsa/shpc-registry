@@ -1,0 +1,23 @@
+docker: nvcr.io/nvidia/pyg:24.01-py3
+url: https://github.com/pyg-team/pytorch_geometric
+
+maintainer: jterstriep
+
+description: >
+  PyG (PyTorch Geometric) is a library built upon PyTorch to easily write 
+  and train Graph Neural Networks (GNNs) for a wide range of applications 
+  related to structured data.
+
+aliases:
+  python3: /opt/relion/bin/relion
+
+latest:
+  2.4.0: sha256:e9951a5c9c1f80831c6f174e6f8ac76a73a36f8e45d6899268a5ad6049dc6280
+tags:
+  2.4.0: sha256:e9951a5c9c1f80831c6f174e6f8ac76a73a36f8e45d6899268a5ad6049dc6280
+
+
+# Any custom features?
+features:
+  gpu: true
+
