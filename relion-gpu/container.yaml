@@ -1,4 +1,4 @@
-docker: unlhcc/relion-gpu:4.0.1
+docker: unlhcc/relion-gpu
 url: https://relion.readthedocs.io/en/release-4.0/index.html
 
 maintainer: jterstriep
