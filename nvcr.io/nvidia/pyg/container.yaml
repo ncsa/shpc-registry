@@ -1,4 +1,4 @@
-docker: nvcr.io/nvidia/pyg:24.01-py3
+docker: nvcr.io/nvidia/pyg
 url: https://github.com/pyg-team/pytorch_geometric
 
 maintainer: jterstriep
