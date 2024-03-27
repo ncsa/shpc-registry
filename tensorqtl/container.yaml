@@ -1,5 +1,5 @@
 # change this to a URL to describe your container, or to get help
-url: https://nvitop.readthedocs.io
+url: https://github.com/broadinstitute/tensorqtl
 
 # change this to your GitHub alias (or another contact or name)
 maintainer: 'jterstriep'
@@ -10,7 +10,9 @@ features:
 
 # Put custom aliases here
 aliases:
-  tensorqtl: tensorqtl
+  tensorqtl: /usr/local/bin/tensorqtl
+  python3: /usr/bin/python3
+  python: /usr/bin/python3
 
 # A description to describe your container
 description: >
@@ -29,5 +31,8 @@ description: >
     influences on trait variation.
 
 latest:
+  1.0.9: sha256:fc657063e14271b06e34a8dd676ecf69b74cc6a8ca9c2952316f9fbc9f5f7add
 tags:
-path: sha256:358fd5b3dee2c2447ffd5cca811baa469ff3521aad9c855dccb6e0d0678bca6e.sif
+  1.0.9: sha256:fc657063e14271b06e34a8dd676ecf69b74cc6a8ca9c2952316f9fbc9f5f7add
+path: sha256:fc657063e14271b06e34a8dd676ecf69b74cc6a8ca9c2952316f9fbc9f5f7add.sif
+
