@@ -13,6 +13,7 @@ aliases:
   tensorqtl: /usr/local/bin/tensorqtl
   python3: /usr/bin/python3
   python: /usr/bin/python3
+  R: /usr/bin/R
 
 # A description to describe your container
 description: >
