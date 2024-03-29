@@ -15,7 +15,6 @@ aliases:
 # env:
 #  breakfast: pancakes
 
-description: A custom container to do X.
 latest:
   4.2.7: sha256:5d87ed2ae06bcf3756bf73174b3a4284b9e40cc9bd376a3363c110dacac746aa
 tags:
