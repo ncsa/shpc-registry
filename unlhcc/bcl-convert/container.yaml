@@ -1,7 +1,8 @@
+docker: unlhcc/bcl-convert
 url: https://support-docs.illumina.com/SW/BCL_Convert_v4.0/Content/SW/BCLConvert/BCLConvert.htm
-maintainer: jterstriep
+maintainer: "jefft@illinois.edu"
 
-description: The Illumina BCL Convert v4.0 is a standalone local software app that converts the Binary Base Call (BCL) files produced by Illumina sequencing systems to FASTQ files.
+description: "The Illumina BCL Convert v4.0 is a standalone local software app that converts the Binary Base Call (BCL) files produced by Illumina sequencing systems to FASTQ files."
 
 # Any custom features?
 # features:
@@ -11,12 +12,7 @@ description: The Illumina BCL Convert v4.0 is a standalone local software app th
 aliases:
   bcl-convert: /usr/local/bin/bcl-convert
 
-# custom environment variables
-# env:
-#  breakfast: pancakes
-
 latest:
-  4.2.7: sha256:5d87ed2ae06bcf3756bf73174b3a4284b9e40cc9bd376a3363c110dacac746aa
+  "4.2.7": sha256:5d87ed2ae06bcf3756bf73174b3a4284b9e40cc9bd376a3363c110dacac746aa
 tags:
-  4.2.7: sha256:5d87ed2ae06bcf3756bf73174b3a4284b9e40cc9bd376a3363c110dacac746aa
-docker: unlhcc/bcl-convert
+  "4.2.7": sha256:5d87ed2ae06bcf3756bf73174b3a4284b9e40cc9bd376a3363c110dacac746aa

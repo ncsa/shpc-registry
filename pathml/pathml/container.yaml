@@ -1,8 +1,18 @@
 docker: pathml/pathml
 url: https://pathml.org/
 
-# change this to your GitHub alias (or another contact or name)
-maintainer: jterstriep
+maintainer: "jefft@illinois.edu"
+
+# A description to describe your container
+description: "PathML is a Python package designed for computational pathology. It 
+serves as a powerful toolbox for various tasks related to high-resolution 
+whole-slide pathology images."
+
+latest:
+  "2.1.0": sha256:8f32c66baa8daee2f941ba42c24d1218e954f2c189c9f0fa1307ece2e3a2d667
+tags:
+  "2.1.0": sha256:8f32c66baa8daee2f941ba42c24d1218e954f2c189c9f0fa1307ece2e3a2d667
+  "2.0.4": sha256:950c538949d8c012d51ce0bd1fed8691c029af8b4d9a23f82494ca3940b06943
 
 # Any custom features?
 # features:
@@ -12,18 +22,3 @@ maintainer: jterstriep
 aliases:
   python3: /root/miniconda3/bin/python3
 
-# custom environment variables
-# env:
-#  breakfast: pancakes
-
-# A description to describe your container
-description: >
-PathML is a Python package designed for computational pathology. It serves 
-as a powerful toolbox for various tasks related to high-resolution 
-whole-slide pathology images.
-
-latest:
-  2.1.0: sha256:8f32c66baa8daee2f941ba42c24d1218e954f2c189c9f0fa1307ece2e3a2d667
-tags:
-  2.1.0: sha256:8f32c66baa8daee2f941ba42c24d1218e954f2c189c9f0fa1307ece2e3a2d667
-  2.0.4: sha256:950c538949d8c012d51ce0bd1fed8691c029af8b4d9a23f82494ca3940b06943

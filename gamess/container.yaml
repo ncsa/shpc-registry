@@ -1,19 +1,19 @@
 path: gamess.sif
 url: https://www.msg.chem.iastate.edu/
-maintainer: '@jterstriep'
+maintainer: "@jterstriep"
 
-description: 'GAMESS (General Atomic and Molecular Electronic Structure
+description: "GAMESS (General Atomic and Molecular Electronic Structure
 System) is a general ab initio quantum chemistry package that uses various
 models to compute the electronic structure of atoms, molecules, or 
-molecular fragments. "Ab initio" refers to calculations that are 
+molecular fragments. \"Ab initio\" refers to calculations that are 
 performed from first principles, meaning they do not rely on empirical or
-experimentally obtained data.'
+experimentally obtained data."
 
 
 latest:
-  2022.2: sha256:caae00cea035b1aba1a9a38e39cecf2ecc7f6ba443187204b405302645e7cac1
+  "2022.2": sha256:caae00cea035b1aba1a9a38e39cecf2ecc7f6ba443187204b405302645e7cac1
 tags:
-  2022.2: sha256:caae00cea035b1aba1a9a38e39cecf2ecc7f6ba443187204b405302645e7cac1
+  "2022.2": sha256:caae00cea035b1aba1a9a38e39cecf2ecc7f6ba443187204b405302645e7cac1
 
 aliases:
   ddikick.x: /opt/gamess/ddikick.x
