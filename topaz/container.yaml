@@ -1,0 +1,27 @@
+# Set either docker or path variable
+#docker:
+path: sha256:fc657063e14271b06e34a8dd676ecf69b74cc6a8ca9c2952316f9fbc9f5f7add.sif
+
+# change this to a URL to describe your container, or to get help
+url: https://github.com/tpebler/topaz
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: 'jterstriep'
+
+# Any custom features?
+features:
+  gpu: true
+
+# Put custom aliases here
+aliases:
+  topaz: /usr/local/conda/bin/topaz
+
+# A description to describe your container
+description: A pipeline for particle detection in cryo-electron microscopy images using convolutional neural networks trained from positive and unlabeled examples. Topaz also includes methods for micrograph and tomogram denoising using deep denoising models.
+
+latest:
+  0.2.5: sha256:fc657063e14271b06e34a8dd676ecf69b74cc6a8ca9c2952316f9fbc9f5f7add
+tags:
+  0.2.5: sha256:fc657063e14271b06e34a8dd676ecf69b74cc6a8ca9c2952316f9fbc9f5f7add
+
+
