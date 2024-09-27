@@ -1,0 +1,32 @@
+# Specify remote docker image or path to local Singularity image
+docker: broadinstitute/gatk
+
+#path: sha256:29721056dd3ba120bfd19e1fe9766f64600e5f8a2802b11755066496a1d0a31b.sif
+
+# change this to a URL to describe your container, or to get help
+url: https://github.com/broadinstitute/gatk
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: 'jterstriep'
+
+# Any custom features?
+features:
+  gpu: true
+
+# Put custom aliases here
+aliases:
+  gatk: /gatk/gatk
+  bedtools: /usr/bin/bedtools
+  samtools: /usr/bin/samtools
+  bcftools: /usr/bin/bcftools
+  tabix: /usr/bin/tabix
+
+# A description to describe your container
+description: GATK4 aims to bring together well-established tools from the GATK and Picard codebases under a streamlined framework, and to enable selected tools to be run in a massively parallel way on local clusters or in the cloud using Apache Spark. It also contains many newly developed tools not present in earlier releases of the toolkit.
+
+latest:
+  4.6.0.0: sha256:29721056dd3ba120bfd19e1fe9766f64600e5f8a2802b11755066496a1d0a31b
+tags:
+  4.6.0.0: sha256:29721056dd3ba120bfd19e1fe9766f64600e5f8a2802b11755066496a1d0a31b
+
+
