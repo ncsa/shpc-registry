@@ -1,0 +1,29 @@
+# Specify remote docker image or path to local Singularity image
+docker: jterstriep/cryodrgn
+
+#path: sha256:29721056dd3ba120bfd19e1fe9766f64600e5f8a2802b11755066496a1d0a31b.sif
+
+# change this to a URL to describe your container, or to get help
+url: https://ez-lab.gitbook.io/cryodrgn
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: 'jterstriep'
+
+# Any custom features?
+features:
+  gpu: true
+
+# Put custom aliases here
+aliases:
+  cryodrgn: /usr/local/bin/cryodrgn
+
+# A description to describe your container
+description: CryoDRGN is a neural network based algorithm for heterogeneous cryo-EM reconstruction. In particular, the method models a continuous distribution over 3D structures by using a neural network based representation for the volume.
+
+latest:
+  4.3.1: sha256:15f299a8f4a1e613eb0b5a8143273ccee3b954fed341d144272fc5ecac415474
+tags:
+  4.3.1: sha256:15f299a8f4a1e613eb0b5a8143273ccee3b954fed341d144272fc5ecac415474
+  2.3.0: sha256:14d2469da02f9a837bc7c375e77e6f7b9c7db435f4c0935cb3d16c1651ffc1d8
+
+
