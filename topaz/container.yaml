@@ -1,6 +1,6 @@
 # Set either docker or path variable
-#docker:
-path: sha256:fc657063e14271b06e34a8dd676ecf69b74cc6a8ca9c2952316f9fbc9f5f7add.sif
+docker: jterstriep/topaz
+#path: sha256:fc657063e14271b06e34a8dd676ecf69b74cc6a8ca9c2952316f9fbc9f5f7add.sif
 
 # change this to a URL to describe your container, or to get help
 url: https://github.com/tpebler/topaz
@@ -20,8 +20,8 @@ aliases:
 description: A pipeline for particle detection in cryo-electron microscopy images using convolutional neural networks trained from positive and unlabeled examples. Topaz also includes methods for micrograph and tomogram denoising using deep denoising models.
 
 latest:
-  0.2.5: sha256:fc657063e14271b06e34a8dd676ecf69b74cc6a8ca9c2952316f9fbc9f5f7add
+  0.2.5: sha256:73a765c2314324082686ec877bdd1facb2628af89a8825c65810a18a2cf2c5ac
 tags:
-  0.2.5: sha256:fc657063e14271b06e34a8dd676ecf69b74cc6a8ca9c2952316f9fbc9f5f7add
+  0.2.5: sha256:73a765c2314324082686ec877bdd1facb2628af89a8825c65810a18a2cf2c5ac
 
 
