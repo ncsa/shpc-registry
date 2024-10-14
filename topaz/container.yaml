@@ -14,7 +14,7 @@ features:
 
 # Put custom aliases here
 aliases:
-  topaz: /usr/local/conda/bin/topaz
+  topaz: /opt/conda/envs/topaz-py3.6/bin/topaz
 
 # A description to describe your container
 description: A pipeline for particle detection in cryo-electron microscopy images using convolutional neural networks trained from positive and unlabeled examples. Topaz also includes methods for micrograph and tomogram denoising using deep denoising models.
