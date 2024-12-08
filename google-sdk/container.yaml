@@ -2,14 +2,19 @@ docker: google/cloud-sdk
 url: https://cloud.google.com/cli
 maintainer: '@jterstriep'
 
-description: Create and manage Google Cloud resources and services directly on the command line or via scripts using the Google Cloud CLI.
+description: Create and manage Google Cloud resources and services directly on the
+  command line or via scripts using the Google Cloud CLI.
 
 latest:
-  '435.0.0': sha256:48e0a9ed93154ebc9e7364a31b16a5fb31aa537b458fcfc4c4ea0133803b55ee
+  502.0.0: sha256:86cc09d835c1652ad61fe8312e6a9ee2836cd2627e7a03bbab023c9372dc3773
 tags:
-  '435.0.0': sha256:48e0a9ed93154ebc9e7364a31b16a5fb31aa537b458fcfc4c4ea0133803b55ee
-  '434.0.0': sha256:1a9feed5f353663411e4c1df17e8095becbd6d88f3406959d7374fe8bd5ae3c0
-
+  435.0.0: sha256:3ca6f5059086d8f1a4219ccd9eb10623d71c3ae3e1b5ba8143958ac185976f9b
+  434.0.0: sha256:4287c9f0fa7fa818a4609a0b7894126277efe48079f32a5323f1272d9bbde450
+  502.0.0: sha256:86cc09d835c1652ad61fe8312e6a9ee2836cd2627e7a03bbab023c9372dc3773
+  501.0.0: sha256:26eeb4b056601aec9b37e54e7efe9f6c195361303f57d56399fb9fd3d357d5e4
+  500.0.0: sha256:38eb06b9382439803f9cf546b283ec48e929d55e3824bb786984e596ee45b6da
+  499.0.0: sha256:40818d437fe72aa06a1bae45a62697813af13badb719f7f17f0f0b941a8524d4
+  498.0.0: sha256:5e3eeb6a147e4e81a3da8373523144738e2e4c80b99952e0ba804f2ef8adb073
 aliases:
   gcloud: /usr/bin/gcloud
   gsutil: /usr/bin/gsutil
