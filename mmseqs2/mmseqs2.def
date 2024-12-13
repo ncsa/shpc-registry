@@ -1,0 +1,47 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%post
+    # Update and install necessary packages
+    apt-get update && apt-get install -y \
+        wget \
+        git \
+        build-essential \
+        cmake \
+        zlib1g-dev \
+        libbz2-dev
+
+    # Clone MMseqs2 repository
+    git clone https://github.com/soedinglab/MMseqs2.git /opt/MMseqs2
+    cd /opt/MMseqs2
+
+    # Create Conda environment for CUDA
+    conda create -n nvcc -c conda-forge cuda-nvcc cuda-cudart-dev cuda-version=12.6 cmake
+    . /opt/conda/etc/profile.d/conda.sh
+    conda activate nvcc
+
+    # Create build directory and compile MMseqs2 with GPU support
+    mkdir build && cd build
+    cmake -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_INSTALL_PREFIX=. -DENABLE_CUDA=1 -DCMAKE_CUDA_ARCHITECTURES="75;80;86;89;90" ..
+    make -j8
+    make install
+
+    # Add MMseqs2 to PATH
+    echo 'export PATH=/opt/MMseqs2/build/bin:$PATH' >> ~/.bashrc
+
+    # Clean up
+    apt-get clean
+    rm -rf /var/lib/apt/lists/*
+
+%environment
+    # Set environment variables
+    export PATH=/opt/MMseqs2/build/bin:$PATH
+
+%runscript
+    # Define the default command
+    /opt/MMseqs2/build/bin/mmseqs "$@"
+
+%labels
+    Author: Your Name
+    Version: 1.0
+    Description: Singularity container for MMseqs2 GPU version built from source using Miniconda3
