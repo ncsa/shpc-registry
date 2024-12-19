@@ -1,3 +1,4 @@
+# fake path for locally built container
 path: mmseqs2_gpu.sif
 url: https://github.com/soedinglab/MMseqs2
 maintainer: "@jterstriep"
@@ -14,3 +15,6 @@ tags:
 aliases:
   mmseqs: /opt/MMseqs2/build/bin/mmseqs
   mmseqs_gpu: /opt/MMseqs2/build/bin/mmseqs
+
+features:
+  gpu: true
