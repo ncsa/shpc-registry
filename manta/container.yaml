@@ -1,0 +1,22 @@
+# Looks like a solid build from a reputable organization
+docker: genieusgenomics/manta
+
+# change this to a URL to describe your container, or to get help
+url: https://github.com/Illumina/manta
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: 'jterstriep'
+
+# A description to describe your container
+description: Manta calls structural variants (SVs) and indels from mapped paired-end sequencing reads. It is optimized for analysis of germline variation in small sets of individuals and somatic variation in tumor/normal sample pairs. Manta discovers, assembles and scores large-scale SVs, medium-sized indels and large insertions within a single efficient workflow.
+
+latest:
+  1.6.0: sha256:d4fddb84ede35edab0a566f9be1264f95e9330448064f4850c41dc1eeadaa59b
+tags:
+  1.6.0: sha256:d4fddb84ede35edab0a566f9be1264f95e9330448064f4850c41dc1eeadaa59b
+
+# Put custom aliases here
+aliases:
+  configManta.py: /opt/manta/bin/configManta.py
+  runMantaWorkflowDemo.py: /opt/manta/bin/runMantaWorkflowDemo.py
+
