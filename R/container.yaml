@@ -1,13 +1,19 @@
-aliases:
-  R: /usr/local/bin/R
-  Rscript: /usr/local/bin/Rscript
+# Fake path for locally built container
+path: R.sif
+url: https://hub.docker.com/r/rocker/verse
+maintainer: '@jterstriep'
+
 description: rocker/verse base image with many bioconductor packages installed
+
+# Fake hashes for locally built containers
 latest:
   '4.2.2': sha256:5e9afca775928074b3319f79352c984f530785412800a486e2283e7514ce4c6e
-maintainer: '@jterstriep'
 tags:
   '3.6.1': sha256:dadaefc3e790443a32c1f09def7206656aadb372e9e1d2893b954218fecea8ca
   '4.0.2': sha256:b7b52dfeb7920e69a9ee34700d7ae48e2b1299c8aa376fe4c4a0e9b49fb66519
   '4.2.2': sha256:5e9afca775928074b3319f79352c984f530785412800a486e2283e7514ce4c6e
-url: https://hub.docker.com/r/rocker/verse
-path: /projects/ncsa/jefft/projects/singularity/R/R-4.2.2.sif
+  '4.3.3': sha256:5e9afca775928074b3319f79352c984f530785412800a486e2283e7514ce4c6e
+
+aliases:
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
