@@ -1,0 +1,29 @@
+Bootstrap: docker
+From: ubuntu:22.04
+
+%files
+    ${DRAGENA_TAR} /dragena.tar.gz
+
+%post
+    if [ ! -f /dragena.tar.gz ]; then
+        echo Tar file not found, set \$DRAGENA_TAR prior to singularity build
+        exit 1
+    fi
+
+    apt-get update && apt-get install -y libicu70
+
+    cd /opt
+    TOPDIR=$(tar tvzf /dragena.tar.gz | head -1 | cut -d' ' -f6)
+    tar -xzf /dragena.tar.gz --strip-components=1 $TOPDIR
+
+    rm /dragena.tar.gz
+
+
+%environment
+    export PATH=/opt/dragena:$PATH
+
+%runscript
+    /opt/dragena/dragena
+
+%labels
+    Author: Jeff Terstriep

@@ -1,0 +1,17 @@
+# fake path for locally built container
+path: dragena.sif
+url: https://help.dragenarray.illumina.com/
+maintainer: "@jterstriep"
+
+description: "DRAGEN (Dynamic Read Analysis for GENomics) Array secondary analysis is a powerful bioinformatics software for Illumina Infinium array-based assays. DRAGEN Array uses cutting-edge data analysis tools to provide accurate, comprehensive, and highly efficient secondary analysis to maximize genomic insights and meet your research needs across multiple applications."
+
+
+# fake hashes for locally built container
+latest:
+  "1.1.0": sha256:caae00cea035b1aba1a9a38e39cecf2ecc7f6ba443187204b405302645e7cac1
+tags:
+  "1.1.0": sha256:caae00cea035b1aba1a9a38e39cecf2ecc7f6ba443187204b405302645e7cac1
+
+aliases:
+  dragena: /opt/dragena/dragena
+  createdump: /opt/dragena/createdump
