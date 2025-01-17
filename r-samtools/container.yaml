@@ -1,0 +1,43 @@
+docker: jterstriep/r-samtools
+url: https://github.com/ncsa/shpc-registry/
+
+maintainer: 'jterstriep'
+description: R based on rocker/verse image with samtools and matching R packages
+
+latest:
+  '4.4': 'sha256:96b05145a3a68e8c61bd98e7a04682caacf5cb10978d8a7943106ae1e4b920e6'
+tags:
+  '4.4': 'sha256:96b05145a3a68e8c61bd98e7a04682caacf5cb10978d8a7943106ae1e4b920e6'
+
+aliases:
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  checkbashisms: /usr/local/bin/checkbashisms
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  install2.r: /usr/local/bin/install2.r
+  installGithub.r: /usr/local/bin/installGithub.r
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  novo2sam.pl: /usr/local/bin/novo2sam.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  quarto: /usr/local/bin/quarto
+  r: /usr/local/bin/r
+  R: /usr/local/bin/R
+  Rscript: /usr/local/bin/Rscript
+  rserver: /usr/local/bin/rserver
+  rstudio-server: /usr/local/bin/rstudio-server
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools: /usr/local/bin/samtools
+  samtools.pl: /usr/local/bin/samtools.pl
+  seq_cache_populate.pl: /usr/local/bin/seq_cache_populate.pl
+  soap2sam.pl: /usr/local/bin/soap2sam.pl
+  wgsim: /usr/local/bin/wgsim
+  wgsim_eval.pl: /usr/local/bin/wgsim_eval.pl
+  zoom2sam.pl: /usr/local/bin/zoom2sam.pl
