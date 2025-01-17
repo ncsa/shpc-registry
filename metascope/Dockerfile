@@ -42,8 +42,11 @@ RUN curl -LO https://github.com/samtools/samtools/releases/download/1.21/samtool
 # Install R packages
 RUN R -e "install.packages(c('devtools', 'remotes', 'BiocManager', 'R.utils'))" \
     && R -e "BiocManager::install(c('Rsamtools', 'Rbowtie2'))" \
-    && R -e "remotes::install_github(c('ropensci/bold', 'ropensci/taxize'))" \
-    && R -e "devtools::install_github('wejlab/MetaScope')"
+    && R -e "remotes::install_github(c('ropensci/bold', 'ropensci/taxize'))"
+
+RUN R -e "BiocManager::install('MetaScope')" 
+
+
 
 # Set working directory
 WORKDIR /home
