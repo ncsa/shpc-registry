@@ -1,13 +1,13 @@
-docker: jterstriep/r-samtools
-url: https://github.com/ncsa/shpc-registry/
+docker: jterstriep/metascope
+maintainer: jterstriep
 
-maintainer: 'jterstriep'
-description: R based on rocker/verse image with samtools and matching R packages
+url: https://github.com/wejlab/MetaScope
+description: MetaScope is a complete R-based 16S, metagenomic, and metatranscriptomic profiling package that can accurately identify the composition of microbes at a strain-level resolution within a sample. MetaScope can be considered as an updated and expanded R translation of PathoScope 2.0, a Python-based metagenomic profiling package also created by the Johnson lab.
 
 latest:
-  '4.4': 'sha256:96b05145a3a68e8c61bd98e7a04682caacf5cb10978d8a7943106ae1e4b920e6'
+  '1.5.4': 'sha256:0e0256d046ec3b29436365170d121b0ed3fa74b5c1d25475acfc0d4278bc2b54'
 tags:
-  '4.4': 'sha256:96b05145a3a68e8c61bd98e7a04682caacf5cb10978d8a7943106ae1e4b920e6'
+  '1.5.4': 'sha256:0e0256d046ec3b29436365170d121b0ed3fa74b5c1d25475acfc0d4278bc2b54'
 
 aliases:
   ace2sam: /usr/local/bin/ace2sam
