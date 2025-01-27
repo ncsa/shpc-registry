@@ -1,0 +1,24 @@
+Bootstrap: docker
+From: ubuntu:jammy
+
+%post
+    # Update and install necessary packages
+    apt-get update && apt-get install -y wget
+
+    cd /opt
+    wget https://dev.mmseqs.com/latest/mmseqs-linux-avx2.tar.gz
+    tar xzf mmseqs-linux-avx2.tar.gz
+    rm mmseqs-linux-avx2.tar.gz
+
+%environment
+    # Set environment variables
+    export PATH=/opt/mmseqs/bin
+
+%runscript
+    # Define the default command
+    /opt/mmseqs2/build/bin/mmseqs "$@"
+
+%labels
+    Author: Jeff Terstriep
+    Version: 1.0
+    Description: Singularity container for MMseqs2 avx2 version (bindary download)
