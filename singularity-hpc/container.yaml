@@ -1,0 +1,22 @@
+docker: jterstriep/singularity-hpc
+url: https://singularity-hpc.readthedocs.io
+
+# change this to your GitHub alias (or another contact or name)
+maintainer: jterstriep
+
+# Any custom features?
+#features:
+#  gpu: false
+
+# A description to describe your container
+description: Singularity Registry HPC (shpc) will allow you to install Singularity containers as modules.
+
+latest:
+  2.3.0: sha256:14d2469da02f9a837bc7c375e77e6f7b9c7db435f4c0935cb3d16c1651ffc1d8
+tags:
+  0.1.31: sha256:14d2469da02f9a837bc7c375e77e6f7b9c7db435f4c0935cb3d16c1651ffc1d8
+
+# Put custom aliases here
+aliases:
+  shpc: shpc
+
