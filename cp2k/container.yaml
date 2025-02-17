@@ -1,0 +1,23 @@
+docker: jterstriep/cp2k
+url: https://cp2k.org
+
+maintainer: jterstriep
+
+description: CP2K is a quantum chemistry and solid state physics software package
+  that can perform atomistic simulations of solid state, liquid, molecular, periodic,
+  material, crystal, and biological systems.
+
+latest:
+  2025.1_openmpi_skylake-avx512_psmp: sha256:5e1ae4e6877b79176dac09959b103c2a6c3ccca5065339e07e91c7cbb651b432
+tags:
+  2025.1_openmpi_skylake-avx512_psmp: sha256:5e1ae4e6877b79176dac09959b103c2a6c3ccca5065339e07e91c7cbb651b432
+
+aliases:
+  cp2k: /opt/cp2k/exe/local/cp2k.psmp
+  cp2k.popt: /opt/cp2k/exe/local/cp2k.psmp
+  cp2k_shell: /opt/cp2k/exe/local/cp2k.psmp
+  dumpdcd.psmp: /opt/cp2k/exe/local/dumpdcd.psmp
+  graph: /opt/cp2k/exe/local/graph.psmp
+  xyz2dcd: /opt/cp2k/exe/local/xyz2dcd.psmp
+  mpirun: /opt/cp2k/tools/toolchain/install/openmpi-5.0.6/bin/mpirun
+  mpiexec: /opt/cp2k/tools/toolchain/install/openmpi-5.0.6/bin/mpirun

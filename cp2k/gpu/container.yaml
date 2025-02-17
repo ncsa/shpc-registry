@@ -1,0 +1,24 @@
+docker: jterstriep/cp2k
+url: https://cp2k.org
+
+maintainer: jterstriep
+
+description: CP2K is a quantum chemistry and solid state physics software package
+  that can perform atomistic simulations of solid state, liquid, molecular, periodic,
+  material, crystal, and biological systems.
+
+latest:
+  2025.1_openmpi_generic_cuda_A100_psmp: sha256:4473a7452d0f45e0e0df1d439b2d2d808545853f47df53bbc16cb1994f336d30
+tags:
+  2025.1_openmpi_generic_cuda_A100_psmp: sha256:4473a7452d0f45e0e0df1d439b2d2d808545853f47df53bbc16cb1994f336d30
+
+aliases:
+  cp2k: /opt/cp2k/exe/local_cuda/cp2k.psmp
+  cp2k.popt: /opt/cp2k/exe/local_cuda/cp2k.psmp
+  cp2k_shell: /opt/cp2k/exe/local_cuda/cp2k.psmp
+  dumpdcd.psmp: /opt/cp2k/exe/local_cuda/dumpdcd.psmp
+  graph: /opt/cp2k/exe/local_cuda/graph.psmp
+  xyz2dcd: /opt/cp2k/exe/local_cuda/xyz2dcd.psmp
+
+features:
+  gpu: true
