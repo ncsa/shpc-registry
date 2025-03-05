@@ -8,9 +8,10 @@ description: CP2K is a quantum chemistry and solid state physics software packag
   material, crystal, and biological systems.
 
 latest:
-  2025.1_openmpi_generic_cuda_A100_psmp: sha256:4473a7452d0f45e0e0df1d439b2d2d808545853f47df53bbc16cb1994f336d30
+  2025.1_openmpi_generic_cuda_A100_munge_psmp: sha256:455d6db5216f59697336dc48e811c716db5e39399177a351a82261abc355d64e
 tags:
   2025.1_openmpi_generic_cuda_A100_psmp: sha256:4473a7452d0f45e0e0df1d439b2d2d808545853f47df53bbc16cb1994f336d30
+  2025.1_openmpi_generic_cuda_A100_munge_psmp: sha256:455d6db5216f59697336dc48e811c716db5e39399177a351a82261abc355d64e
 
 aliases:
   cp2k: /opt/cp2k/exe/local_cuda/cp2k.psmp
