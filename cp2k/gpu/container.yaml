@@ -20,6 +20,8 @@ aliases:
   dumpdcd.psmp: /opt/cp2k/exe/local_cuda/dumpdcd.psmp
   graph: /opt/cp2k/exe/local_cuda/graph.psmp
   xyz2dcd: /opt/cp2k/exe/local_cuda/xyz2dcd.psmp
+  mpirun: /opt/cp2k/tools/toolchain/install/openmpi-5.0.6/bin/mpirun
+  mpiexec: /opt/cp2k/tools/toolchain/install/openmpi-5.0.6/bin/mpiexec
 
 features:
   gpu: true
