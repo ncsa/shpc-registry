@@ -1,0 +1,21 @@
+docker: ghcr.io/nwchemgit/nwchem-720.mpi-pr
+url: https://github.com/nwchemgit/nwchem-dockerfiles/pkgs/container/nwchem-720.mpi-pr
+
+maintainer: 'jtersriep'
+
+description: NWChem is an open-source computational chemistry software 
+  package designed for high-performance simulations of molecular systems, 
+  biomolecules, nanostructures, and solid-state materials2. It supports 
+  various quantum chemical methods, including Hartree-Fock, Density 
+  Functional Theory (DFT), and post-Hartree-Fock techniques like 
+  Møller-Plesset and Coupled Cluster methods
+
+
+latest:
+  '20250711_110525': sha256:fd815ec6d034763cccaeed3b09d101d022b17a3770b8a7286723ae0b4c00cff7
+tags:
+  '20250711_110525': sha256:fd815ec6d034763cccaeed3b09d101d022b17a3770b8a7286723ae0b4c00cff7
+
+singularity_scripts:
+  nwchem: nwchem_singularity.sh
+
