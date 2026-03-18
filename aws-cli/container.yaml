@@ -1,13 +1,11 @@
 # Specify remote docker image or path to local Singularity image
 docker: amazon/aws-cli
 
-#path: sha256:29721056dd3ba120bfd19e1fe9766f64600e5f8a2802b11755066496a1d0a31b.sif
-
 # change this to a URL to describe your container, or to get help
 url: https://aws.amazon.com/cli/
 
 # change this to your GitHub alias (or another contact or name)
-maintainer: 'jterstriep'
+maintainer: jterstriep
 
 # Any custom features?
 #features:
@@ -16,13 +14,18 @@ maintainer: 'jterstriep'
 # Put custom aliases here
 aliases:
   aws: /usr/local/bin/aws
+  
 
 # A description to describe your container
-description: The AWS Command Line Interface (AWS CLI) is a unified tool to manage your AWS services. With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts.
+description: The AWS Command Line Interface (AWS CLI) is a unified tool to manage
+  your AWS services. With just one tool to download and configure, you can control
+  multiple AWS services from the command line and automate them through scripts.
 
 latest:
-  2.17.61: sha256:e553f4420212633e64ae1b8a7165c92d55b01db6e3c0c80e170d60fe1134f3a9
+  2.34.12: sha256:062e71cf5cdeb9d6836465823376726bdb6fac358ccb3e8d9106de48f51f7e68
 tags:
   2.17.61: sha256:e553f4420212633e64ae1b8a7165c92d55b01db6e3c0c80e170d60fe1134f3a9
-
-
+  2.34.12: sha256:062e71cf5cdeb9d6836465823376726bdb6fac358ccb3e8d9106de48f51f7e68
+  2.33.31: sha256:6fb1a97d06113e082dc4f0f5b3d4b358b464aab87e370a5b78b9a79827a5561b
+  2.32.34: sha256:ef3bba47102d9c46599a77f033cc5ec1450b0b7365902b8dbd9a254083ad82a3
+  2.31.39: sha256:4e6ccae67f5032711fa3b0d2000b6898a95bba01fee66c42e04b7b58b5231035
